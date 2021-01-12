@@ -1,0 +1,39 @@
+li{
+    list-style-type: none;
+    font-size: 16px;
+    
+}
+
+.email{
+    border: 0px solid rgb(124, 121, 121);
+    border-radius: 20px;
+    margin: 50pt;
+    margin-top: 100pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    background: rgb(207, 201, 231);
+}
+/*setup of text in class .email*/
+.email h3{
+    font-family: Tahoma, sans-serifana;
+    margin-left:  0px; /*text จะห่างจากกรอบ 50px จากด้านซ้าย*/
+    color: rgb(39, 37, 37);
+}
+/*setup text input (enter your email)*/
+input{
+    font-size: 20px; 
+    text-align: center;
+}
+
+input:focus, textarea:focus{
+    background-color: rgb(233, 247, 215); /*bg of input ms box*/
+}
+
+input submit{
+    font-size: 12px;
+}
+
+form{ 
+    padding-top: 10px;
+}
